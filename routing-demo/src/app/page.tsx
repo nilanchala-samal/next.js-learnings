@@ -1,5 +1,3 @@
-export default function page() {
-  return (
-    <h1>Welcome Next.js</h1>
-  )
+export default function Home() {
+  return <h1>Welcome to Next.js</h1>;
 }
