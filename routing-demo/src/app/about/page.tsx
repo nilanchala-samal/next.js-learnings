@@ -1,3 +1,9 @@
+// static meta data
+export const metadata = {
+  title: "About Page",
+  description: "This page contains information regarding the abouts of the products"
+}
+
 const About = () => {
   return <h1>This is about page</h1>;
 };
