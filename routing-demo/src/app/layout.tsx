@@ -26,7 +26,7 @@ export default function RootLayout({
         padding: "0"
       }}>
         <header>
-          <h1 style={{
+          <h1 className="text-3xl" style={{
             backgroundColor: "aqua",
             padding: "1rem",
             textAlign: "center"
@@ -36,7 +36,7 @@ export default function RootLayout({
         </header>
         {children}
         <footer>
-          <h2 style={{
+          <h2 className="text-2xl" style={{
             backgroundColor: "maroon",
             padding: "1rem",
             color: "ghostwhite",
